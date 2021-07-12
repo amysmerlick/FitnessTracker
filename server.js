@@ -6,8 +6,18 @@ const workoutsAPIRoutes = require('./routes/workouts')
 
 mongoDBURI = "mongodb+srv://amysmerlick:Smerlick@1@cluster0.wvgo1.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"
 
-mongoose.connect(
-    mongoDBURI,
+// mongoose.connect(
+//     mongoDBURI,
+//     {
+//       useNewUrlParser: true,
+//       useUnifiedTopology: true,
+//       useCreateIndex: true,
+//       useFindAndModify: false
+//     }
+//   );
+
+  mongoose.connect(
+    process.env.MONGODB_URI || 'mongodb://localhost/myFirstDatabase',
     {
       useNewUrlParser: true,
       useUnifiedTopology: true,
@@ -15,6 +25,7 @@ mongoose.connect(
       useFindAndModify: false
     }
   );
+
 /*
   const MyModel = mongoose.model('Test', new mongoose.Schema({name: String}))
   MyModel.find({}, (err, documents) => {
