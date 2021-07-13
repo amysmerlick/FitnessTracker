@@ -40,6 +40,7 @@ mongoose.connect(
 // Initialize the app and create a port
 const app = express();
 const PORT = process.env.PORT || 3000;
+console.log(process.env.PORT)
 
 // Set up body parsing, static, and route middleware
 app.use(express.json());
@@ -50,4 +51,5 @@ app.use('/', htmlRoutes);
 app.use('/api/workouts', workoutsAPIRoutes)
 
 // Start the server on the port
-app.listen(() => console.log(`Listening on PORT: ${PORT}`));
+console.log("Starting server")
+app.listen(process.env.PORT, () => console.log(`Listening on PORT: ${PORT}`));
