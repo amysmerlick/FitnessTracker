@@ -50,4 +50,4 @@ app.use('/', htmlRoutes);
 app.use('/api/workouts', workoutsAPIRoutes)
 
 // Start the server on the port
-app.listen(PORT, () => console.log(`Listening on PORT: ${PORT}`));
+app.listen(() => console.log(`Listening on PORT: ${PORT}`));
