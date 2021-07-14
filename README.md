@@ -1,12 +1,12 @@
-💪💥FitnessTracker💥💪
+# 💪💥FitnessTracker💥💪
 
 #  Description 🏃🏃
 
-Fittness Tracker is an online application that gives user access to 
+Fittness Tracker is an online application that gives user access to creating and tracking daily workouts. This will help a user achience their fitness goals quickly.
 
 
 
-Bottom Drawer Marketplace is an online store, where each user can buy or sell clothing and other items. Any user may access the store to see what is available for purchase, but you must sign up or log in to buy items. Once users have an account, they can see their own store, which is a collection of the items they have posted for sale. Users can also edit and delete their own items. Images must be submitted in the form of a URL and once any item is purchased, it is removed from the store. In order to create this site, our developers needed an understanding of how to create the front-end and back-end aspects of a full-stack application. The backend uses Node.js and Express.js to create a RESTful API, MySQL and Sequelize ORM for the database, Javascript to create models and make requests, as well as Handlebars, Bootstrap, HTML, CSS, and other front end frameworks to develop a polishes and responsive UI. In addition, this application protects access to posting, buying, editing, or deleting without an account, and for our own safety we were succesffully able to protect our API keys and private local database related information.
+
 
  # Table of Contents
  * [Demo](#demo)
@@ -21,6 +21,11 @@ Bottom Drawer Marketplace is an online store, where each user can buy or sell cl
 Head to this link to watch a demonstration of the app- [Demo]()
 
 # Usage
+![Fitness Tracker](https://user-images.githubusercontent.com/77814900/125542313-7e9ce4a3-17a9-432f-983c-07880fadf396.png)
+![Fitness Tracker (1)](https://user-images.githubusercontent.com/77814900/125542362-2404f1f6-b95e-4b9e-ab3b-b2706643ffe2.png)
+![Fitness Tracker (2)](https://user-images.githubusercontent.com/77814900/125542390-498e2dc6-7824-4859-92d6-f3993dcc6b70.png)
+![Fitness Tracker (3)](https://user-images.githubusercontent.com/77814900/125542403-a9aed095-7d44-41c4-9b6d-09537379750c.png)
+![Fitness Chart](https://user-images.githubusercontent.com/77814900/125542467-5a167c2c-d3c3-4276-91c5-0a1d3255939d.png)
 
 
 
