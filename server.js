@@ -4,7 +4,7 @@ const htmlRoutes = require('./routes/basic');
 const mongoose = require('mongoose')
 const workoutsAPIRoutes = require('./routes/workouts')
 
-mongoDBURI = "mongodb+srv://amysmerlick:Smerlick@1@cluster0.wvgo1.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"
+mongoDBURI = "mongodb+srv://amysmerlick:password@cluster0.wvgo1.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"
 
 mongoose.connect(
     mongoDBURI,
